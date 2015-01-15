@@ -1,6 +1,6 @@
 //
-//  ViewController.h
-//  VKPhotoViewer2
+//  MasterViewController.h
+//  NavigationTests_1
 //
 //  Created by Kristy on 12.01.15.
 //  Copyright (c) 2015 Kristyna. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MasterViewController : UITableViewController
 
 
 @end

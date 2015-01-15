@@ -10,11 +10,21 @@
 		00A618C11A647475008E2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C01A647475008E2C5D /* main.m */; };
 		00A618C41A647475008E2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C31A647475008E2C5D /* AppDelegate.m */; };
 		00A618C71A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */; };
-		00A618CA1A647475008E2C5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C91A647475008E2C5D /* ViewController.m */; };
+		00A618CA1A647475008E2C5D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C91A647475008E2C5D /* LogInViewController.m */; };
 		00A618CD1A647475008E2C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A618CB1A647475008E2C5D /* Main.storyboard */; };
 		00A618CF1A647475008E2C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A618CE1A647475008E2C5D /* Images.xcassets */; };
 		00A618D21A647475008E2C5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A618D01A647475008E2C5D /* LaunchScreen.xib */; };
 		00A618DE1A647475008E2C5D /* VKPhotoViewer2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618DD1A647475008E2C5D /* VKPhotoViewer2Tests.m */; };
+		00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618E81A647571008E2C5D /* AlbumTableViewController.m */; };
+		00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */; };
+		00A619271A648E0C008E2C5D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A619261A648E0C008E2C5D /* Album.m */; };
+		00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */; };
+		00A919F81A65B57B005EE58E /* DetailAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */; };
+		00A91A011A65CBD8005EE58E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A001A65CBD8005EE58E /* Photo.m */; };
+		00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A061A65CC29005EE58E /* AlbumDataController.m */; };
+		00A91A0C1A662657005EE58E /* IKV7100.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A91A0B1A662657005EE58E /* IKV7100.png */; };
+		00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A0D1A6639A3005EE58E /* PhotoDataController.m */; };
+		00B572331A66E2A300D7EEF1 /* OnePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +44,33 @@
 		00A618C21A647475008E2C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00A618C31A647475008E2C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00A618C61A647475008E2C5D /* VKPhotoViewer2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKPhotoViewer2.xcdatamodel; sourceTree = "<group>"; };
-		00A618C81A647475008E2C5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00A618C91A647475008E2C5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00A618C81A647475008E2C5D /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		00A618C91A647475008E2C5D /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		00A618CC1A647475008E2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A618CE1A647475008E2C5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00A618D11A647475008E2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		00A618D71A647475008E2C5D /* VKPhotoViewer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKPhotoViewer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A618DC1A647475008E2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A618DD1A647475008E2C5D /* VKPhotoViewer2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPhotoViewer2Tests.m; sourceTree = "<group>"; };
+		00A618E71A647571008E2C5D /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewController.h; sourceTree = "<group>"; };
+		00A618E81A647571008E2C5D /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewController.m; sourceTree = "<group>"; };
+		00A618EA1A64759A008E2C5D /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		00A619251A648E0C008E2C5D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		00A619261A648E0C008E2C5D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		00A619311A64A9CA008E2C5D /* DetailAlbumCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailAlbumCollectionViewController.h; path = ../DetailAlbumCollectionViewController.h; sourceTree = "<group>"; };
+		00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailAlbumCollectionViewController.m; path = ../DetailAlbumCollectionViewController.m; sourceTree = "<group>"; };
+		00A919F61A65B57B005EE58E /* DetailAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		00A919FF1A65CBCE005EE58E /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		00A91A001A65CBD8005EE58E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		00A91A021A65CBF3005EE58E /* PhotoDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDataController.h; sourceTree = "<group>"; };
+		00A91A051A65CC1F005EE58E /* AlbumDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		00A91A061A65CC29005EE58E /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
+		00A91A0B1A662657005EE58E /* IKV7100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IKV7100.png; path = ../../../Desktop/IKV7100.png; sourceTree = "<group>"; };
+		00A91A0D1A6639A3005EE58E /* PhotoDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDataController.m; sourceTree = "<group>"; };
+		00B572311A66E2A300D7EEF1 /* OnePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePhotoViewController.h; sourceTree = "<group>"; };
+		00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +112,15 @@
 		00A618BD1A647475008E2C5D /* VKPhotoViewer2 */ = {
 			isa = PBXGroup;
 			children = (
+				00A919E31A65ACB8005EE58E /* Photos */,
+				00A919E21A65AC6E005EE58E /* Controllers */,
 				00A618C21A647475008E2C5D /* AppDelegate.h */,
 				00A618C31A647475008E2C5D /* AppDelegate.m */,
-				00A618C81A647475008E2C5D /* ViewController.h */,
-				00A618C91A647475008E2C5D /* ViewController.m */,
 				00A618CB1A647475008E2C5D /* Main.storyboard */,
+				00A919FF1A65CBCE005EE58E /* Photo.h */,
+				00A91A001A65CBD8005EE58E /* Photo.m */,
+				00A619251A648E0C008E2C5D /* Album.h */,
+				00A619261A648E0C008E2C5D /* Album.m */,
 				00A618CE1A647475008E2C5D /* Images.xcassets */,
 				00A618D01A647475008E2C5D /* LaunchScreen.xib */,
 				00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */,
@@ -120,6 +153,53 @@
 				00A618DC1A647475008E2C5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A919E21A65AC6E005EE58E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00B572351A66E2C500D7EEF1 /* View */,
+				00B572341A66E2B300D7EEF1 /* Data */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		00A919E31A65ACB8005EE58E /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				00A91A0B1A662657005EE58E /* IKV7100.png */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		00B572341A66E2B300D7EEF1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				00A91A051A65CC1F005EE58E /* AlbumDataController.h */,
+				00A91A061A65CC29005EE58E /* AlbumDataController.m */,
+				00A91A021A65CBF3005EE58E /* PhotoDataController.h */,
+				00A91A0D1A6639A3005EE58E /* PhotoDataController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		00B572351A66E2C500D7EEF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A618C81A647475008E2C5D /* LogInViewController.h */,
+				00A618C91A647475008E2C5D /* LogInViewController.m */,
+				00A618E71A647571008E2C5D /* AlbumTableViewController.h */,
+				00A618E81A647571008E2C5D /* AlbumTableViewController.m */,
+				00A618EA1A64759A008E2C5D /* AlbumTableViewCell.h */,
+				00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */,
+				00A619311A64A9CA008E2C5D /* DetailAlbumCollectionViewController.h */,
+				00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */,
+				00A919F61A65B57B005EE58E /* DetailAlbumCollectionViewCell.h */,
+				00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */,
+				00B572311A66E2A300D7EEF1 /* OnePhotoViewController.h */,
+				00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A91A0C1A662657005EE58E /* IKV7100.png in Resources */,
 				00A618CD1A647475008E2C5D /* Main.storyboard in Resources */,
 				00A618D21A647475008E2C5D /* LaunchScreen.xib in Resources */,
 				00A618CF1A647475008E2C5D /* Images.xcassets in Resources */,
@@ -222,10 +303,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */,
+				00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */,
+				00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */,
 				00A618C41A647475008E2C5D /* AppDelegate.m in Sources */,
 				00A618C11A647475008E2C5D /* main.m in Sources */,
-				00A618CA1A647475008E2C5D /* ViewController.m in Sources */,
+				00A618CA1A647475008E2C5D /* LogInViewController.m in Sources */,
+				00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */,
+				00A619271A648E0C008E2C5D /* Album.m in Sources */,
+				00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */,
 				00A618C71A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld in Sources */,
+				00A91A011A65CBD8005EE58E /* Photo.m in Sources */,
+				00A919F81A65B57B005EE58E /* DetailAlbumCollectionViewCell.m in Sources */,
+				00B572331A66E2A300D7EEF1 /* OnePhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +506,7 @@
 				00A618E31A647475008E2C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A618E41A647475008E2C5D /* Build configuration list for PBXNativeTarget "VKPhotoViewer2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +515,7 @@
 				00A618E61A647475008E2C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
