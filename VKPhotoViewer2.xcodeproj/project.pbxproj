@@ -1,1388 +1,617 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00A618B21A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618BD1A647475008E2C5D</string>
-				<string>00A618DA1A647475008E2C5D</string>
-				<string>00A618BC1A647475008E2C5D</string>
-				<string>BE9BB90BC4F5CCA632A7496D</string>
-				<string>3B3C70D92F0413E3E853B877</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618B31A647475008E2C5D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Kristyna</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>00A618BA1A647475008E2C5D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>00A618D61A647475008E2C5D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>00A618BA1A647475008E2C5D</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>00A618B61A647475008E2C5D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>00A618B21A647475008E2C5D</string>
-			<key>productRefGroup</key>
-			<string>00A618BC1A647475008E2C5D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>00A618BA1A647475008E2C5D</string>
-				<string>00A618D61A647475008E2C5D</string>
-			</array>
-		</dict>
-		<key>00A618B61A647475008E2C5D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>00A618DF1A647475008E2C5D</string>
-				<string>00A618E01A647475008E2C5D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>00A618B71A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>00A618E91A647571008E2C5D</string>
-				<string>00A618EC1A64759A008E2C5D</string>
-				<string>00A619331A64A9CA008E2C5D</string>
-				<string>00A618C41A647475008E2C5D</string>
-				<string>00A618C11A647475008E2C5D</string>
-				<string>00A618CA1A647475008E2C5D</string>
-				<string>00A91A071A65CC29005EE58E</string>
-				<string>00A619271A648E0C008E2C5D</string>
-				<string>00A91A0E1A6639A3005EE58E</string>
-				<string>00A618C71A647475008E2C5D</string>
-				<string>00A91A011A65CBD8005EE58E</string>
-				<string>00A919F81A65B57B005EE58E</string>
-				<string>00B572331A66E2A300D7EEF1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618B81A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>53E220A6712F2BED96D58862</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618B91A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>00A91A0C1A662657005EE58E</string>
-				<string>00A618CD1A647475008E2C5D</string>
-				<string>00A618D21A647475008E2C5D</string>
-				<string>00A618CF1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618BA1A647475008E2C5D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>00A618E11A647475008E2C5D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6C48E00FF0CC1D9BB2D49F1E</string>
-				<string>00A618B71A647475008E2C5D</string>
-				<string>00A618B81A647475008E2C5D</string>
-				<string>00A618B91A647475008E2C5D</string>
-				<string>7A2E55A5C816FC97E7E98B8C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>VKPhotoViewer2</string>
-			<key>productName</key>
-			<string>VKPhotoViewer2</string>
-			<key>productReference</key>
-			<string>00A618BB1A647475008E2C5D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>00A618BB1A647475008E2C5D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>VKPhotoViewer2.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>00A618BC1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618BB1A647475008E2C5D</string>
-				<string>00A618D71A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618BD1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A919E31A65ACB8005EE58E</string>
-				<string>00A919E21A65AC6E005EE58E</string>
-				<string>00A618C21A647475008E2C5D</string>
-				<string>00A618C31A647475008E2C5D</string>
-				<string>00A618CB1A647475008E2C5D</string>
-				<string>00A919FF1A65CBCE005EE58E</string>
-				<string>00A91A001A65CBD8005EE58E</string>
-				<string>00A619251A648E0C008E2C5D</string>
-				<string>00A619261A648E0C008E2C5D</string>
-				<string>00A618CE1A647475008E2C5D</string>
-				<string>00A618D01A647475008E2C5D</string>
-				<string>00A618C51A647475008E2C5D</string>
-				<string>00A618BE1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>VKPhotoViewer2</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618BE1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618BF1A647475008E2C5D</string>
-				<string>00A618C01A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618BF1A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C01A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C11A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618C01A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618C21A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C31A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C41A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618C31A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618C51A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618C61A647475008E2C5D</string>
-			</array>
-			<key>currentVersion</key>
-			<string>00A618C61A647475008E2C5D</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>VKPhotoViewer2.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>00A618C61A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>VKPhotoViewer2.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C71A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618C51A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618C81A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LogInViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618C91A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LogInViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618CA1A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618C91A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618CB1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618CC1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618CC1A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618CD1A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618CB1A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618CE1A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618CF1A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618CE1A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618D01A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618D11A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618D11A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618D21A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618D01A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618D31A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>00A618DE1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618D41A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618D51A647475008E2C5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00A618D61A647475008E2C5D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>00A618E41A647475008E2C5D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>00A618D31A647475008E2C5D</string>
-				<string>00A618D41A647475008E2C5D</string>
-				<string>00A618D51A647475008E2C5D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>00A618D91A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>VKPhotoViewer2Tests</string>
-			<key>productName</key>
-			<string>VKPhotoViewer2Tests</string>
-			<key>productReference</key>
-			<string>00A618D71A647475008E2C5D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>00A618D71A647475008E2C5D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>VKPhotoViewer2Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>00A618D81A647475008E2C5D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>00A618B31A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>00A618BA1A647475008E2C5D</string>
-			<key>remoteInfo</key>
-			<string>VKPhotoViewer2</string>
-		</dict>
-		<key>00A618D91A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>00A618BA1A647475008E2C5D</string>
-			<key>targetProxy</key>
-			<string>00A618D81A647475008E2C5D</string>
-		</dict>
-		<key>00A618DA1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618DD1A647475008E2C5D</string>
-				<string>00A618DB1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>VKPhotoViewer2Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618DB1A647475008E2C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618DC1A647475008E2C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618DC1A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618DD1A647475008E2C5D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>VKPhotoViewer2Tests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618DE1A647475008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618DD1A647475008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618DF1A647475008E2C5D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>00A618E01A647475008E2C5D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>00A618E11A647475008E2C5D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>00A618E21A647475008E2C5D</string>
-				<string>00A618E31A647475008E2C5D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>00A618E21A647475008E2C5D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>160AFAA527F592FD0F42DD36</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>VKPhotoViewer2/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>00A618E31A647475008E2C5D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FE5C4862B526CC4E4CDFBF28</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>VKPhotoViewer2/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>00A618E41A647475008E2C5D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>00A618E51A647475008E2C5D</string>
-				<string>00A618E61A647475008E2C5D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>00A618E51A647475008E2C5D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>VKPhotoViewer2Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/VKPhotoViewer2.app/VKPhotoViewer2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>00A618E61A647475008E2C5D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>VKPhotoViewer2Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/VKPhotoViewer2.app/VKPhotoViewer2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>00A618E71A647571008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AlbumTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618E81A647571008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AlbumTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618E91A647571008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618E81A647571008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A618EA1A64759A008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AlbumTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618EB1A64759A008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AlbumTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A618EC1A64759A008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A618EB1A64759A008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A619251A648E0C008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Album.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A619261A648E0C008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Album.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A619271A648E0C008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A619261A648E0C008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A619311A64A9CA008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DetailAlbumCollectionViewController.h</string>
-			<key>path</key>
-			<string>../DetailAlbumCollectionViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A619321A64A9CA008E2C5D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DetailAlbumCollectionViewController.m</string>
-			<key>path</key>
-			<string>../DetailAlbumCollectionViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A619331A64A9CA008E2C5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A619321A64A9CA008E2C5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A919E21A65AC6E005EE58E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00B572351A66E2C500D7EEF1</string>
-				<string>00B572341A66E2B300D7EEF1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A919E31A65ACB8005EE58E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A91A0B1A662657005EE58E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Photos</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A919F61A65B57B005EE58E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailAlbumCollectionViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A919F71A65B57B005EE58E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailAlbumCollectionViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A919F81A65B57B005EE58E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A919F71A65B57B005EE58E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A919FF1A65CBCE005EE58E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Photo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A001A65CBD8005EE58E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Photo.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A011A65CBD8005EE58E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A91A001A65CBD8005EE58E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A91A021A65CBF3005EE58E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PhotoDataController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A051A65CC1F005EE58E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AlbumDataController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A061A65CC29005EE58E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AlbumDataController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A071A65CC29005EE58E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A91A061A65CC29005EE58E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A91A0B1A662657005EE58E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>IKV7100.png</string>
-			<key>path</key>
-			<string>../../../Desktop/IKV7100.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A0C1A662657005EE58E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A91A0B1A662657005EE58E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00A91A0D1A6639A3005EE58E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PhotoDataController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A91A0E1A6639A3005EE58E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A91A0D1A6639A3005EE58E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00B572311A66E2A300D7EEF1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OnePhotoViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00B572321A66E2A300D7EEF1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OnePhotoViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00B572331A66E2A300D7EEF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00B572321A66E2A300D7EEF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00B572341A66E2B300D7EEF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A91A051A65CC1F005EE58E</string>
-				<string>00A91A061A65CC29005EE58E</string>
-				<string>00A91A021A65CBF3005EE58E</string>
-				<string>00A91A0D1A6639A3005EE58E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Data</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00B572351A66E2C500D7EEF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00A618C81A647475008E2C5D</string>
-				<string>00A618C91A647475008E2C5D</string>
-				<string>00A618E71A647571008E2C5D</string>
-				<string>00A618E81A647571008E2C5D</string>
-				<string>00A618EA1A64759A008E2C5D</string>
-				<string>00A618EB1A64759A008E2C5D</string>
-				<string>00A619311A64A9CA008E2C5D</string>
-				<string>00A619321A64A9CA008E2C5D</string>
-				<string>00A919F61A65B57B005EE58E</string>
-				<string>00A919F71A65B57B005EE58E</string>
-				<string>00B572311A66E2A300D7EEF1</string>
-				<string>00B572321A66E2A300D7EEF1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>160AFAA527F592FD0F42DD36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B3C70D92F0413E3E853B877</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A594618BABDC599BDE25613A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53E220A6712F2BED96D58862</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A594618BABDC599BDE25613A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6C48E00FF0CC1D9BB2D49F1E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7A2E55A5C816FC97E7E98B8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A594618BABDC599BDE25613A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BE9BB90BC4F5CCA632A7496D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>160AFAA527F592FD0F42DD36</string>
-				<string>FE5C4862B526CC4E4CDFBF28</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE5C4862B526CC4E4CDFBF28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>00A618B31A647475008E2C5D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A3D2BC1A6AE97E00E86825 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3D2BB1A6AE97E00E86825 /* image.png */; };
+		00A618C11A647475008E2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C01A647475008E2C5D /* main.m */; };
+		00A618C41A647475008E2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C31A647475008E2C5D /* AppDelegate.m */; };
+		00A618C71A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */; };
+		00A618CA1A647475008E2C5D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C91A647475008E2C5D /* LogInViewController.m */; };
+		00A618CD1A647475008E2C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A618CB1A647475008E2C5D /* Main.storyboard */; };
+		00A618CF1A647475008E2C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A618CE1A647475008E2C5D /* Images.xcassets */; };
+		00A618D21A647475008E2C5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A618D01A647475008E2C5D /* LaunchScreen.xib */; };
+		00A618DE1A647475008E2C5D /* VKPhotoViewer2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618DD1A647475008E2C5D /* VKPhotoViewer2Tests.m */; };
+		00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618E81A647571008E2C5D /* AlbumTableViewController.m */; };
+		00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */; };
+		00A619271A648E0C008E2C5D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A619261A648E0C008E2C5D /* Album.m */; };
+		00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */; };
+		00A6AE461A6DA176007ADFE5 /* VKContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6AE451A6DA176007ADFE5 /* VKContentManager.m */; };
+		00A919F81A65B57B005EE58E /* DetailAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */; };
+		00A91A011A65CBD8005EE58E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A001A65CBD8005EE58E /* Photo.m */; };
+		00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A061A65CC29005EE58E /* AlbumDataController.m */; };
+		00A91A0C1A662657005EE58E /* IKV7100.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A91A0B1A662657005EE58E /* IKV7100.png */; };
+		00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A0D1A6639A3005EE58E /* PhotoDataController.m */; };
+		00B572331A66E2A300D7EEF1 /* OnePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */; };
+		53E220A6712F2BED96D58862 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A594618BABDC599BDE25613A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A618D81A647475008E2C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A618B31A647475008E2C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A618BA1A647475008E2C5D;
+			remoteInfo = VKPhotoViewer2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A3D2BB1A6AE97E00E86825 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../Downloads/image.png; sourceTree = "<group>"; };
+		00A559841A6A3D080091EC32 /* VKPhotoViewer2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKPhotoViewer2-Prefix.pch"; sourceTree = "<group>"; };
+		00A618BB1A647475008E2C5D /* VKPhotoViewer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotoViewer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A618BF1A647475008E2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A618C01A647475008E2C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A618C21A647475008E2C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00A618C31A647475008E2C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00A618C61A647475008E2C5D /* VKPhotoViewer2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKPhotoViewer2.xcdatamodel; sourceTree = "<group>"; };
+		00A618C81A647475008E2C5D /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		00A618C91A647475008E2C5D /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		00A618CC1A647475008E2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A618CE1A647475008E2C5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00A618D11A647475008E2C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00A618D71A647475008E2C5D /* VKPhotoViewer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKPhotoViewer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A618DC1A647475008E2C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A618DD1A647475008E2C5D /* VKPhotoViewer2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPhotoViewer2Tests.m; sourceTree = "<group>"; };
+		00A618E71A647571008E2C5D /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewController.h; sourceTree = "<group>"; };
+		00A618E81A647571008E2C5D /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewController.m; sourceTree = "<group>"; };
+		00A618EA1A64759A008E2C5D /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		00A619251A648E0C008E2C5D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		00A619261A648E0C008E2C5D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		00A619311A64A9CA008E2C5D /* DetailAlbumCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailAlbumCollectionViewController.h; path = ../DetailAlbumCollectionViewController.h; sourceTree = "<group>"; };
+		00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailAlbumCollectionViewController.m; path = ../DetailAlbumCollectionViewController.m; sourceTree = "<group>"; };
+		00A6AE441A6DA176007ADFE5 /* VKContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKContentManager.h; sourceTree = "<group>"; };
+		00A6AE451A6DA176007ADFE5 /* VKContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKContentManager.m; sourceTree = "<group>"; };
+		00A919F61A65B57B005EE58E /* DetailAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		00A919FF1A65CBCE005EE58E /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		00A91A001A65CBD8005EE58E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		00A91A021A65CBF3005EE58E /* PhotoDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDataController.h; sourceTree = "<group>"; };
+		00A91A051A65CC1F005EE58E /* AlbumDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		00A91A061A65CC29005EE58E /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
+		00A91A0B1A662657005EE58E /* IKV7100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IKV7100.png; path = ../../../Desktop/IKV7100.png; sourceTree = "<group>"; };
+		00A91A0D1A6639A3005EE58E /* PhotoDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDataController.m; sourceTree = "<group>"; };
+		00B572311A66E2A300D7EEF1 /* OnePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePhotoViewController.h; sourceTree = "<group>"; };
+		00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePhotoViewController.m; sourceTree = "<group>"; };
+		160AFAA527F592FD0F42DD36 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A594618BABDC599BDE25613A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5C4862B526CC4E4CDFBF28 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A618B81A647475008E2C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E220A6712F2BED96D58862 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A618D41A647475008E2C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A618B21A647475008E2C5D = {
+			isa = PBXGroup;
+			children = (
+				00A618BD1A647475008E2C5D /* VKPhotoViewer2 */,
+				00A618DA1A647475008E2C5D /* VKPhotoViewer2Tests */,
+				00A618BC1A647475008E2C5D /* Products */,
+				BE9BB90BC4F5CCA632A7496D /* Pods */,
+				3B3C70D92F0413E3E853B877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A618BC1A647475008E2C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A618BB1A647475008E2C5D /* VKPhotoViewer2.app */,
+				00A618D71A647475008E2C5D /* VKPhotoViewer2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A618BD1A647475008E2C5D /* VKPhotoViewer2 */ = {
+			isa = PBXGroup;
+			children = (
+				00A618C21A647475008E2C5D /* AppDelegate.h */,
+				00A618C31A647475008E2C5D /* AppDelegate.m */,
+				00A618CB1A647475008E2C5D /* Main.storyboard */,
+				00A919E31A65ACB8005EE58E /* Photos */,
+				00A919E21A65AC6E005EE58E /* Controllers */,
+				00A6AE471A6DA1B6007ADFE5 /* Network */,
+				00A919FF1A65CBCE005EE58E /* Photo.h */,
+				00A91A001A65CBD8005EE58E /* Photo.m */,
+				00A619251A648E0C008E2C5D /* Album.h */,
+				00A619261A648E0C008E2C5D /* Album.m */,
+				00A618CE1A647475008E2C5D /* Images.xcassets */,
+				00A618D01A647475008E2C5D /* LaunchScreen.xib */,
+				00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */,
+				00A618BE1A647475008E2C5D /* Supporting Files */,
+			);
+			path = VKPhotoViewer2;
+			sourceTree = "<group>";
+		};
+		00A618BE1A647475008E2C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A559841A6A3D080091EC32 /* VKPhotoViewer2-Prefix.pch */,
+				00A618BF1A647475008E2C5D /* Info.plist */,
+				00A618C01A647475008E2C5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A618DA1A647475008E2C5D /* VKPhotoViewer2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00A618DD1A647475008E2C5D /* VKPhotoViewer2Tests.m */,
+				00A618DB1A647475008E2C5D /* Supporting Files */,
+			);
+			path = VKPhotoViewer2Tests;
+			sourceTree = "<group>";
+		};
+		00A618DB1A647475008E2C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A618DC1A647475008E2C5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A6AE471A6DA1B6007ADFE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00A6AE441A6DA176007ADFE5 /* VKContentManager.h */,
+				00A6AE451A6DA176007ADFE5 /* VKContentManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		00A919E21A65AC6E005EE58E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00B572351A66E2C500D7EEF1 /* View */,
+				00B572341A66E2B300D7EEF1 /* Data */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		00A919E31A65ACB8005EE58E /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				00A91A0B1A662657005EE58E /* IKV7100.png */,
+				00A3D2BB1A6AE97E00E86825 /* image.png */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		00B572341A66E2B300D7EEF1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				00A91A051A65CC1F005EE58E /* AlbumDataController.h */,
+				00A91A061A65CC29005EE58E /* AlbumDataController.m */,
+				00A91A021A65CBF3005EE58E /* PhotoDataController.h */,
+				00A91A0D1A6639A3005EE58E /* PhotoDataController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		00B572351A66E2C500D7EEF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A618C81A647475008E2C5D /* LogInViewController.h */,
+				00A618C91A647475008E2C5D /* LogInViewController.m */,
+				00A618E71A647571008E2C5D /* AlbumTableViewController.h */,
+				00A618E81A647571008E2C5D /* AlbumTableViewController.m */,
+				00A618EA1A64759A008E2C5D /* AlbumTableViewCell.h */,
+				00A618EB1A64759A008E2C5D /* AlbumTableViewCell.m */,
+				00A619311A64A9CA008E2C5D /* DetailAlbumCollectionViewController.h */,
+				00A619321A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m */,
+				00A919F61A65B57B005EE58E /* DetailAlbumCollectionViewCell.h */,
+				00A919F71A65B57B005EE58E /* DetailAlbumCollectionViewCell.m */,
+				00B572311A66E2A300D7EEF1 /* OnePhotoViewController.h */,
+				00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B3C70D92F0413E3E853B877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A594618BABDC599BDE25613A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE9BB90BC4F5CCA632A7496D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				160AFAA527F592FD0F42DD36 /* Pods.debug.xcconfig */,
+				FE5C4862B526CC4E4CDFBF28 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A618BA1A647475008E2C5D /* VKPhotoViewer2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A618E11A647475008E2C5D /* Build configuration list for PBXNativeTarget "VKPhotoViewer2" */;
+			buildPhases = (
+				6C48E00FF0CC1D9BB2D49F1E /* Check Pods Manifest.lock */,
+				00A618B71A647475008E2C5D /* Sources */,
+				00A618B81A647475008E2C5D /* Frameworks */,
+				00A618B91A647475008E2C5D /* Resources */,
+				7A2E55A5C816FC97E7E98B8C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKPhotoViewer2;
+			productName = VKPhotoViewer2;
+			productReference = 00A618BB1A647475008E2C5D /* VKPhotoViewer2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A618D61A647475008E2C5D /* VKPhotoViewer2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A618E41A647475008E2C5D /* Build configuration list for PBXNativeTarget "VKPhotoViewer2Tests" */;
+			buildPhases = (
+				00A618D31A647475008E2C5D /* Sources */,
+				00A618D41A647475008E2C5D /* Frameworks */,
+				00A618D51A647475008E2C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A618D91A647475008E2C5D /* PBXTargetDependency */,
+			);
+			name = VKPhotoViewer2Tests;
+			productName = VKPhotoViewer2Tests;
+			productReference = 00A618D71A647475008E2C5D /* VKPhotoViewer2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A618B31A647475008E2C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Kristyna;
+				TargetAttributes = {
+					00A618BA1A647475008E2C5D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					00A618D61A647475008E2C5D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 00A618BA1A647475008E2C5D;
+					};
+				};
+			};
+			buildConfigurationList = 00A618B61A647475008E2C5D /* Build configuration list for PBXProject "VKPhotoViewer2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A618B21A647475008E2C5D;
+			productRefGroup = 00A618BC1A647475008E2C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A618BA1A647475008E2C5D /* VKPhotoViewer2 */,
+				00A618D61A647475008E2C5D /* VKPhotoViewer2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A618B91A647475008E2C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A91A0C1A662657005EE58E /* IKV7100.png in Resources */,
+				00A3D2BC1A6AE97E00E86825 /* image.png in Resources */,
+				00A618CD1A647475008E2C5D /* Main.storyboard in Resources */,
+				00A618D21A647475008E2C5D /* LaunchScreen.xib in Resources */,
+				00A618CF1A647475008E2C5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A618D51A647475008E2C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C48E00FF0CC1D9BB2D49F1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2E55A5C816FC97E7E98B8C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A618B71A647475008E2C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */,
+				00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */,
+				00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */,
+				00A618C41A647475008E2C5D /* AppDelegate.m in Sources */,
+				00A6AE461A6DA176007ADFE5 /* VKContentManager.m in Sources */,
+				00A618C11A647475008E2C5D /* main.m in Sources */,
+				00A618CA1A647475008E2C5D /* LogInViewController.m in Sources */,
+				00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */,
+				00A619271A648E0C008E2C5D /* Album.m in Sources */,
+				00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */,
+				00A618C71A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld in Sources */,
+				00A91A011A65CBD8005EE58E /* Photo.m in Sources */,
+				00A919F81A65B57B005EE58E /* DetailAlbumCollectionViewCell.m in Sources */,
+				00B572331A66E2A300D7EEF1 /* OnePhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A618D31A647475008E2C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A618DE1A647475008E2C5D /* VKPhotoViewer2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A618D91A647475008E2C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A618BA1A647475008E2C5D /* VKPhotoViewer2 */;
+			targetProxy = 00A618D81A647475008E2C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A618CB1A647475008E2C5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A618CC1A647475008E2C5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A618D01A647475008E2C5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A618D11A647475008E2C5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A618DF1A647475008E2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00A618E01A647475008E2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A618E21A647475008E2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160AFAA527F592FD0F42DD36 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKPhotoViewer2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A618E31A647475008E2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5C4862B526CC4E4CDFBF28 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKPhotoViewer2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A618E51A647475008E2C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKPhotoViewer2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKPhotoViewer2.app/VKPhotoViewer2";
+			};
+			name = Debug;
+		};
+		00A618E61A647475008E2C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKPhotoViewer2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKPhotoViewer2.app/VKPhotoViewer2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A618B61A647475008E2C5D /* Build configuration list for PBXProject "VKPhotoViewer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A618DF1A647475008E2C5D /* Debug */,
+				00A618E01A647475008E2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A618E11A647475008E2C5D /* Build configuration list for PBXNativeTarget "VKPhotoViewer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A618E21A647475008E2C5D /* Debug */,
+				00A618E31A647475008E2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A618E41A647475008E2C5D /* Build configuration list for PBXNativeTarget "VKPhotoViewer2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A618E51A647475008E2C5D /* Debug */,
+				00A618E61A647475008E2C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00A618C61A647475008E2C5D /* VKPhotoViewer2.xcdatamodel */,
+			);
+			currentVersion = 00A618C61A647475008E2C5D /* VKPhotoViewer2.xcdatamodel */;
+			path = VKPhotoViewer2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00A618B31A647475008E2C5D /* Project object */;
+}

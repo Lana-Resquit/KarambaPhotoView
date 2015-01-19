@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VKSdk.h"
 
-@interface LogInViewController : UIViewController
-
+@interface LogInViewController : UIViewController <VKSdkDelegate>
 
 @end
 
