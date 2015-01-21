@@ -8,10 +8,8 @@
 
 #import "AlbumTableViewController.h"
 #import "AlbumTableViewCell.h"
-#import "Album.h"
 #import "AlbumDataController.h"
 #import "DetailAlbumCollectionViewController.h"
-#import "VKSdk.h"
 
 @interface AlbumTableViewController ()
 
@@ -21,6 +19,12 @@
 
 @implementation AlbumTableViewController
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    [self.tableView reloadData];
+
+}
+
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:NO];
     [[self navigationController] setNavigationBarHidden:NO animated:NO];
@@ -29,8 +33,8 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
-//    self.albumDataController = [[AlbumDataController alloc]init];
+
+    self.albumDataController = [[AlbumDataController alloc]init];
     
 }
 

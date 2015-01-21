@@ -7,11 +7,11 @@
 //
 
 #import "AlbumDataController.h"
+#import "VKContentManager.h"
 
 @interface AlbumDataController ()
 
-@property (nonatomic, readonly) NSMutableArray *albumList;
-
+@property (nonatomic, strong) VKContentManager * vkContentManager;
 
 -(void)initializeDefaultAlbum;
 
@@ -31,13 +31,12 @@
 }
 
 -(void)initializeDefaultAlbum {
-    [self addAlbumWithTitle:@"Summer" andPhoto:[UIImage imageNamed:@"IKV7100.png"]];
-   [self addAlbumWithTitle:@"Autumn" andPhoto:[UIImage imageNamed:@"IKV7100.png"]];
+    [self addAlbum];
 }
 
--(void)addAlbumWithTitle:(NSString *)title andPhoto:(UIImage *)photo {
-    Album *newAlbum = [[Album alloc]initWhithTitle:title andPhoto:photo];
-    [self.albumList addObject:newAlbum];
+-(void)addAlbum {
+     self.vkContentManager = [[VKContentManager alloc]init];
+    [self.vkContentManager searchAlbumsInUser];
 }
 
 -(NSUInteger)albumCount {

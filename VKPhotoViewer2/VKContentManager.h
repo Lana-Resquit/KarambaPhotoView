@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Album.h"
+
 @interface VKContentManager : NSObject
 
-+(NSArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error;
+-(void)searchAlbumsInUser;
 
 @end

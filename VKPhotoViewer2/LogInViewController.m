@@ -26,7 +26,6 @@ static NSString *VK_APP_ID = @"4731732";
     if ([VKSdk wakeUpSession]) {
         [self startWorking];
     }
-
 }
 
 - (IBAction)authorize:(id)sender {

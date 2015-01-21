@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlbumTableViewController : UITableViewController <UITableViewDataSource>
-@property (strong, nonatomic) NSArray *albums;
+@interface AlbumTableViewController : UITableViewController
 
 @end

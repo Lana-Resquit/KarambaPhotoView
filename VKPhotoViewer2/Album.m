@@ -10,14 +10,4 @@
 
 @implementation Album
 
--(id)initWhithTitle:(NSString *)title andPhoto:(UIImage *)photo {
-    self = [super init];
-    if (self) {
-        _title = title;
-        _photo = photo;
-        return self;
-    }
-    return nil;
-}
-
 @end

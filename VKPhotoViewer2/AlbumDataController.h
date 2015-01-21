@@ -11,8 +11,9 @@
 
 @interface AlbumDataController : NSObject
 
+@property (nonatomic, strong) NSArray *albumList;
+
 -(NSUInteger)albumCount;
 -(Album *) albumAtIndex:(NSUInteger)index;
--(void)addAlbumWithTitle:(NSString *)title andPhoto:(UIImage *)photo;
 
 @end

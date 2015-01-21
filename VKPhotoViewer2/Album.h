@@ -11,9 +11,7 @@
 
 @interface Album : NSObject
 
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) UIImage *photo;
-
--(id)initWhithTitle:(NSString *)title andPhoto:(UIImage *)photo;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) UIImage *photo;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00323B6A1A6F77100079C095 /* AlbumBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00323B691A6F77100079C095 /* AlbumBuilder.m */; };
 		00A3D2BC1A6AE97E00E86825 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3D2BB1A6AE97E00E86825 /* image.png */; };
 		00A618C11A647475008E2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C01A647475008E2C5D /* main.m */; };
 		00A618C41A647475008E2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C31A647475008E2C5D /* AppDelegate.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00323B681A6F77100079C095 /* AlbumBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumBuilder.h; sourceTree = "<group>"; };
+		00323B691A6F77100079C095 /* AlbumBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumBuilder.m; sourceTree = "<group>"; };
 		00A3D2BB1A6AE97E00E86825 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../Downloads/image.png; sourceTree = "<group>"; };
 		00A559841A6A3D080091EC32 /* VKPhotoViewer2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKPhotoViewer2-Prefix.pch"; sourceTree = "<group>"; };
 		00A618BB1A647475008E2C5D /* VKPhotoViewer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotoViewer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,12 +132,9 @@
 				00A618C31A647475008E2C5D /* AppDelegate.m */,
 				00A618CB1A647475008E2C5D /* Main.storyboard */,
 				00A919E31A65ACB8005EE58E /* Photos */,
+				00C1CF8E1A6F57CF0030BFA7 /* Models */,
 				00A919E21A65AC6E005EE58E /* Controllers */,
 				00A6AE471A6DA1B6007ADFE5 /* Network */,
-				00A919FF1A65CBCE005EE58E /* Photo.h */,
-				00A91A001A65CBD8005EE58E /* Photo.m */,
-				00A619251A648E0C008E2C5D /* Album.h */,
-				00A619261A648E0C008E2C5D /* Album.m */,
 				00A618CE1A647475008E2C5D /* Images.xcassets */,
 				00A618D01A647475008E2C5D /* LaunchScreen.xib */,
 				00A618C51A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld */,
@@ -173,6 +173,7 @@
 		00A6AE471A6DA1B6007ADFE5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				00C1CF901A6F57EB0030BFA7 /* Parsers */,
 				00A6AE441A6DA176007ADFE5 /* VKContentManager.h */,
 				00A6AE451A6DA176007ADFE5 /* VKContentManager.m */,
 			);
@@ -225,6 +226,26 @@
 				00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		00C1CF8E1A6F57CF0030BFA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00A919FF1A65CBCE005EE58E /* Photo.h */,
+				00A91A001A65CBD8005EE58E /* Photo.m */,
+				00A619251A648E0C008E2C5D /* Album.h */,
+				00A619261A648E0C008E2C5D /* Album.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		00C1CF901A6F57EB0030BFA7 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				00323B681A6F77100079C095 /* AlbumBuilder.h */,
+				00323B691A6F77100079C095 /* AlbumBuilder.m */,
+			);
+			name = Parsers;
 			sourceTree = "<group>";
 		};
 		3B3C70D92F0413E3E853B877 /* Frameworks */ = {
@@ -384,6 +405,7 @@
 				00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */,
 				00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */,
 				00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */,
+				00323B6A1A6F77100079C095 /* AlbumBuilder.m in Sources */,
 				00A618C41A647475008E2C5D /* AppDelegate.m in Sources */,
 				00A6AE461A6DA176007ADFE5 /* VKContentManager.m in Sources */,
 				00A618C11A647475008E2C5D /* main.m in Sources */,

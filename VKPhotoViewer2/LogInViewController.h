@@ -11,5 +11,7 @@
 
 @interface LogInViewController : UIViewController <VKSdkDelegate>
 
+
+
 @end
 

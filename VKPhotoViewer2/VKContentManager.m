@@ -7,48 +7,33 @@
 //
 
 #import "VKContentManager.h"
+#import "VKSdk.h"
+#import "AlbumDataController.h"
+#import "AlbumBuilder.h"
 
+@interface VKContentManager ()
+
+@property (nonatomic, strong) AlbumDataController * albumDataController;
+
+@end
 @implementation VKContentManager
 
-+(NSArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
-    NSError *localError = nil;
-    NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];
+-(void)searchAlbumsInUser {
     
-    if (localError != nil) {
-        *error = localError;
-        return nil;
-    }
-    
-    NSMutableArray *albums = [[NSMutableArray alloc] init];
-    
-    NSArray *results = [parsedObject valueForKey:@"results"];
-    NSLog(@"Count %ld", results.count);
-    
-    for (NSDictionary *groupDic in results) {
-        Album *album = [[Album alloc] init];
-        
-        for (NSString *key in groupDic) {
-            if ([album respondsToSelector:NSSelectorFromString(key)]) {
-                [album setValue:[groupDic valueForKey:key] forKey:key];
-            }
-        }
-        
-        [albums addObject:album];
-    }
-    
-    return albums;
-}
+    NSString *token = [[VKSdk getAccessToken]accessToken];
+    NSString *userId = [[VKSdk getAccessToken]userId];
+    NSString *urlString = [NSString stringWithFormat:@"https://api.vk.com/method/photos.getAlbums?user_id=%@&access_token=%@&need_covers=1",userId,token];
+    NSURL *url = [[NSURL alloc]initWithString:urlString];
 
-//VKRequest * getAlbums = [VKRequest requestWithMethod:@"photos.getAlbums" andParameters:@{VK_API_OWNER_ID : newToken.userId} andHttpMethod:@"GET"];
-//[getAlbums executeWithResultBlock:^(VKResponse * response) {
-//    NSLog(@"Json result: %@", response.json);
-//} errorBlock:^(NSError * error) {
-//    if (error.code != VK_API_ERROR) {
-//        [error.vkError.request repeat];
-//    }
-//    else {
-//        NSLog(@"VK error: %@", error);
-//    }
-//}];
+    [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+    
+        if (error) {
+            NSLog(@"Error %@; %@", error, [error localizedDescription]);
+        } else {
+            [self.albumDataController setAlbumList:[AlbumBuilder albumsFromJSON:data error:nil]];
+    
+    }
+}];
+}
 
 @end
