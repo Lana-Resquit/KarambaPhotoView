@@ -11,7 +11,7 @@
 
 @implementation AlbumBuilder
 
-+(NSArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
++(NSMutableArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
     
     NSError *localError = nil;
     NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];

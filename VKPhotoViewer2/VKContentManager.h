@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface VKContentManager : NSObject
-
--(void)searchAlbumsInUser;
-
-@end
+//#import <Foundation/Foundation.h>
+//
+//@interface VKContentManager : NSObject
+//
+//-(void)searchAlbumsInUser;
+//
+//@end

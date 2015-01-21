@@ -10,6 +10,6 @@
 
 @interface AlbumBuilder : NSObject
 
-+(NSArray *)albumsFromJSON:(NSData *)objectNotatoin error:(NSError **)error;
++(NSMutableArray *)albumsFromJSON:(NSData *)objectNotatoin error:(NSError **)error;
 
 @end

@@ -8,20 +8,26 @@
 
 #import "AlbumTableViewController.h"
 #import "AlbumTableViewCell.h"
-#import "AlbumDataController.h"
 #import "DetailAlbumCollectionViewController.h"
 
-@interface AlbumTableViewController ()
+#import "Album.h"
+#import "VKManager.h"
+#import "VKCommunicator.h"
 
-@property (nonatomic, strong) AlbumDataController * albumDataController;
-
+@interface AlbumTableViewController () <VKManagerDelegate> {
+    NSArray *_albums;
+    VKManager *_manager;
+}
 @end
 
 @implementation AlbumTableViewController
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView reloadData];
+    _manager = [[VKManager alloc]init];
+    _manager.communicator = [[VKCommunicator alloc]init];
+    _manager.communicator.delegate = _manager;
+    _manager.delegate = self;
 
 }
 
@@ -31,22 +37,24 @@
    
 }
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+#pragma mark - VKManagerDelegate
 
-    self.albumDataController = [[AlbumDataController alloc]init];
-    
+-(void)didReceiveAlbums:(NSArray *)albums {
+    _albums = albums;
+    [self.tableView reloadData];
 }
 
--(void) showAlbumData{
-//    self.albumDataController = [[AlbumDataController alloc]initWithSuccessCallback] <callback>
+-(void)fetchingAlbumsFailedWithError:(NSError *)error {
+    NSLog(@"Error %@; %@", error, [error localizedDescription]);
 }
+
+#pragma mark - Table View
+
+
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return NO;
 }
-
-#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
@@ -55,13 +63,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return [self.albumDataController albumCount];
+    return _albums.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
-    Album *album = [self.albumDataController albumAtIndex: indexPath.row];
+    Album *album = _albums[indexPath.row];
     cell.albumTitle.text = album.title;
     cell.mainPhoto.image = album.photo;
     return cell;
@@ -72,7 +80,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"ShowAlbumDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Album *album = [self.albumDataController albumAtIndex: indexPath.row];
+        Album *album = _albums[indexPath.row];;
         DetailAlbumCollectionViewController *destController = [segue destinationViewController];
         [destController setDetailItem:album];
     }
