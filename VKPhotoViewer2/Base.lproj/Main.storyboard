@@ -163,11 +163,14 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="36P-34-Rfw" id="hD4-HK-iSJ"/>
-                            <outlet property="delegate" destination="36P-34-Rfw" id="dDS-ir-6XG"/>
+                            <outlet property="dataSource" destination="36P-34-Rfw" id="jfC-KB-FrL"/>
+                            <outlet property="delegate" destination="36P-34-Rfw" id="gZR-T1-ilW"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Albums" id="sjr-kU-JM1"/>
+                    <connections>
+                        <outlet property="view" destination="U1p-zH-lQS" id="l3b-Xj-Djz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nP6-4w-G5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

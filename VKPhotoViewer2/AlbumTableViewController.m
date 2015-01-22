@@ -13,6 +13,7 @@
 #import "Album.h"
 #import "VKManager.h"
 #import "VKCommunicator.h"
+#import "AFNetworking.h"
 
 @interface AlbumTableViewController () <VKManagerDelegate> {
     NSArray *_albums;
@@ -28,6 +29,8 @@
     _manager.communicator = [[VKCommunicator alloc]init];
     _manager.communicator.delegate = _manager;
     _manager.delegate = self;
+    
+    [_manager fetchAlbumsInUser];
 
 }
 
@@ -71,7 +74,19 @@
     AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
     Album *album = _albums[indexPath.row];
     cell.albumTitle.text = album.title;
-    cell.mainPhoto.image = album.photo;
+    
+    NSURL *url = [NSURL URLWithString:album.urlPhoto];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+    requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
+    [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        cell.mainPhoto.image = responseObject;
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Image error: %@", error);
+    }];
+    [requestOperation start];
+  
     return cell;
 }
 

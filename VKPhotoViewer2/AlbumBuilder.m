@@ -11,7 +11,7 @@
 
 @implementation AlbumBuilder
 
-+(NSMutableArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
++(NSArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
     
     NSError *localError = nil;
     NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];
@@ -29,7 +29,8 @@
         Album *album = [[Album alloc]init];
         
         [album setTitle:[albumDic valueForKey:@"title"]];
-        [album setPhoto:[albumDic valueForKey:@"thumb_src"]];
+        NSString *urlPhoto = [albumDic valueForKey:@"thumb_src"];
+        [album setUrlPhoto:urlPhoto];
 //https://github.com/dchohfi/KeyValueObjectMapping/issues/57
         
         [albums addObject:album];
