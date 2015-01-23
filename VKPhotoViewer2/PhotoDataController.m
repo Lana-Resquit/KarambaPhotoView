@@ -5,7 +5,7 @@
 //  Created by Kristy on 13.01.15.
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
-
+//
 #import "PhotoDataController.h"
 
 @interface PhotoDataController ()
@@ -35,7 +35,7 @@
 }
 
 -(void)addPhoto:(UIImage *)photo {
-    Photo *newPhoto = [[Photo alloc]initWithPhoto:photo];
+    Photo *newPhoto = [[Photo alloc]init];
     [self.albumPhotos addObject:newPhoto];
 }
 

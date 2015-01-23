@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AlbumBuilder : NSObject
+@interface AlbumsBuilder : NSObject
 
 +(NSArray *)albumsFromJSON:(NSData *)objectNotatoin error:(NSError **)error;
+
 
 @end

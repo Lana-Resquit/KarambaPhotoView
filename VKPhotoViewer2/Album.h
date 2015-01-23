@@ -12,7 +12,7 @@
 @interface Album : NSObject
 
 @property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) UIImage *photo;
 @property (nonatomic, strong) NSString *urlPhoto;
+@property (nonatomic, strong) NSString *albumId;
 
 @end

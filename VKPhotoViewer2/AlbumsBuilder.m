@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "AlbumBuilder.h"
+#import "AlbumsBuilder.h"
 #import "Album.h"
 
-@implementation AlbumBuilder
+@implementation AlbumsBuilder
 
 +(NSArray *)albumsFromJSON:(NSData *)objectNotation error:(NSError **)error {
     
@@ -17,8 +17,8 @@
     NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];
     
     if (localError != nil) {
-            *error = localError;
-            return nil;
+        *error = localError;
+        return nil;
     }
     
     NSMutableArray *albums = [[NSMutableArray alloc] init];
@@ -29,6 +29,8 @@
         Album *album = [[Album alloc]init];
         
         [album setTitle:[albumDic valueForKey:@"title"]];
+        [album setAlbumId:[albumDic valueForKey:@"aid"]];
+        
         NSString *urlPhoto = [albumDic valueForKey:@"thumb_src"];
         [album setUrlPhoto:urlPhoto];
 //https://github.com/dchohfi/KeyValueObjectMapping/issues/57
@@ -37,6 +39,7 @@
     }
     return albums;
 }
+
 @end
 
 

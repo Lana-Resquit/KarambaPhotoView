@@ -7,14 +7,20 @@
 //
 
 #import "DetailAlbumCollectionViewController.h"
-#import "PhotoDataController.h"
 #import "DetailAlbumCollectionViewCell.h"
 #import "OnePhotoViewController.h"
 
-@interface DetailAlbumCollectionViewController ()
+#import "Photo.h"
+#import "VKPhotosManager.h"
+#import "VKPhotosCommunicator.h"
+#import "AFNetworking.h"
 
-@property (nonatomic, strong) PhotoDataController *photoDataController;
 
+@interface DetailAlbumCollectionViewController () <VKPhotosManagerDelegate> {
+
+NSArray *_photos;
+VKPhotosManager *_manager;
+}
 @end
 
 @implementation DetailAlbumCollectionViewController
@@ -27,10 +33,28 @@ static NSString * const reuseIdentifier = @"Cell";
     }
 }
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+-(void)viewDidLoad {
+    [super viewDidLoad];
     
-    self.photoDataController = [[PhotoDataController alloc]init];
+    _manager = [[VKPhotosManager alloc]init];
+    _manager.communicator = [[VKPhotosCommunicator alloc] init];
+    _manager.communicator.delegate = _manager;
+    _manager.delegate = self;
+    
+    [_manager fetchPhotosInAlbum:self.detailItem.albumId];
+}
+
+#pragma mark - VKPhotosManagerDelegate
+
+-(void)didReceivePhotos:(NSArray *)photos {
+    
+    _photos = photos;
+    [self.collectionView reloadData];
+}
+
+-(void)fetchingPhotosFailedWithError:(NSError *)error {
+    
+    NSLog(@"Error %@; %@", error, [error localizedDescription]);
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -43,14 +67,26 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 
-    return [self.photoDataController photoCount];
+    return _photos.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     DetailAlbumCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    Photo *photoIm = [self.photoDataController photoAtIndex:indexPath.row];
-    cell.imageView.image = photoIm.photo;
+    Photo *photo = _photos[indexPath.row];
+    
+    NSURL *url = [NSURL URLWithString:photo.photoURL];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+    requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
+    [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        cell.imageView.image = responseObject;
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Image error: %@", error);
+    }];
+    [requestOperation start];
+
     
     return cell;
 }
@@ -58,7 +94,7 @@ static NSString * const reuseIdentifier = @"Cell";
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"ShowAlbumDetails"]) {
         NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems]lastObject];
-        Photo *photo = [self.photoDataController photoAtIndex:indexPath.row];
+        Photo *photo = _photos[indexPath.row];
         
         OnePhotoViewController *destController = [segue destinationViewController];
         [destController setPhotoItem: photo];

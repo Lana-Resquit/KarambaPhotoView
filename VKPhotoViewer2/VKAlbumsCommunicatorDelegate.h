@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKCommunicatorDelegate
+@protocol VKAlbumsCommunicatorDelegate
 
 -(void)receivedAlbumsJSON:(NSData *)objectNotation;
 -(void)fetchingAlbumsFailedWithError:(NSError *)error;

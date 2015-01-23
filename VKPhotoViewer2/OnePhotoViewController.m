@@ -21,7 +21,7 @@
 }
 -(void)configureView {
     if (self.photoItem) {
-        self.imageView.image = self.photoItem.photo;
+        
     }
 }
 

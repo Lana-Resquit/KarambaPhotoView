@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKManagerDelegate
-- (void)didReceiveAlbums:(NSArray *)albums;
-- (void)fetchingAlbumsFailedWithError:(NSError *)error;
+@protocol VKAlbumsManagerDelegate
+
+-(void)didReceiveAlbums:(NSArray *)albums;
+-(void)fetchingAlbumsFailedWithError:(NSError *)error;
+
 @end

@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKCommunicatorDelegate;
+@protocol VKAlbumsCommunicatorDelegate;
 
-@interface VKCommunicator : NSObject
+@interface VKAlbumsCommunicator : NSObject
 
-@property (weak, nonatomic) id<VKCommunicatorDelegate> delegate;
+@property (weak, nonatomic) id<VKAlbumsCommunicatorDelegate> delegate;
 
 -(void)searchAlbumsInUser;
 

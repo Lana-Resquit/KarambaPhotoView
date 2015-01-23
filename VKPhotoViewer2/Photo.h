@@ -11,8 +11,6 @@
 
 @interface Photo : NSObject
 
-@property (nonatomic, copy) UIImage *photo;
-
--(id)initWithPhoto:(UIImage *)photo;
+@property (nonatomic, strong) NSString *photoURL;
 
 @end

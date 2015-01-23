@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00323B6A1A6F77100079C095 /* AlbumBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00323B691A6F77100079C095 /* AlbumBuilder.m */; };
+		001C3DFC1A71A33600239BB7 /* VKPhotosCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C3DFB1A71A33600239BB7 /* VKPhotosCommunicator.m */; };
+		001C3DFF1A71A3E500239BB7 /* VKPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C3DFE1A71A3E500239BB7 /* VKPhotosManager.m */; };
+		001C3E041A71A60300239BB7 /* PhotosBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C3E031A71A60300239BB7 /* PhotosBuilder.m */; };
+		00323B6A1A6F77100079C095 /* AlbumsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00323B691A6F77100079C095 /* AlbumsBuilder.m */; };
 		00A3D2BC1A6AE97E00E86825 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3D2BB1A6AE97E00E86825 /* image.png */; };
 		00A618C11A647475008E2C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C01A647475008E2C5D /* main.m */; };
 		00A618C41A647475008E2C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A618C31A647475008E2C5D /* AppDelegate.m */; };
@@ -27,8 +30,8 @@
 		00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A061A65CC29005EE58E /* AlbumDataController.m */; };
 		00A91A0C1A662657005EE58E /* IKV7100.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A91A0B1A662657005EE58E /* IKV7100.png */; };
 		00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A91A0D1A6639A3005EE58E /* PhotoDataController.m */; };
-		00B0DA8B1A705BA8006AB0A0 /* VKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0DA8A1A705BA8006AB0A0 /* VKManager.m */; };
-		00B0DA8F1A705C9D006AB0A0 /* VKCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0DA8E1A705C9D006AB0A0 /* VKCommunicator.m */; };
+		00B0DA8B1A705BA8006AB0A0 /* VKAlbumsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0DA8A1A705BA8006AB0A0 /* VKAlbumsManager.m */; };
+		00B0DA8F1A705C9D006AB0A0 /* VKAlbumsCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0DA8E1A705C9D006AB0A0 /* VKAlbumsCommunicator.m */; };
 		00B572331A66E2A300D7EEF1 /* OnePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */; };
 		53E220A6712F2BED96D58862 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A594618BABDC599BDE25613A /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -44,8 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00323B681A6F77100079C095 /* AlbumBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumBuilder.h; sourceTree = "<group>"; };
-		00323B691A6F77100079C095 /* AlbumBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumBuilder.m; sourceTree = "<group>"; };
+		001C3DFA1A71A33600239BB7 /* VKPhotosCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotosCommunicator.h; sourceTree = "<group>"; };
+		001C3DFB1A71A33600239BB7 /* VKPhotosCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotosCommunicator.m; sourceTree = "<group>"; };
+		001C3DFD1A71A3E500239BB7 /* VKPhotosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotosManager.h; sourceTree = "<group>"; };
+		001C3DFE1A71A3E500239BB7 /* VKPhotosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotosManager.m; sourceTree = "<group>"; };
+		001C3E001A71A4F500239BB7 /* VKPhotosCommunicatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPhotosCommunicatorDelegate.h; sourceTree = "<group>"; };
+		001C3E011A71A53D00239BB7 /* VKPhotosManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPhotosManagerDelegate.h; sourceTree = "<group>"; };
+		001C3E021A71A60300239BB7 /* PhotosBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosBuilder.h; sourceTree = "<group>"; };
+		001C3E031A71A60300239BB7 /* PhotosBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosBuilder.m; sourceTree = "<group>"; };
+		00323B681A6F77100079C095 /* AlbumsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsBuilder.h; sourceTree = "<group>"; };
+		00323B691A6F77100079C095 /* AlbumsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsBuilder.m; sourceTree = "<group>"; };
 		00A3D2BB1A6AE97E00E86825 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../Downloads/image.png; sourceTree = "<group>"; };
 		00A559841A6A3D080091EC32 /* VKPhotoViewer2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKPhotoViewer2-Prefix.pch"; sourceTree = "<group>"; };
 		00A618BB1A647475008E2C5D /* VKPhotoViewer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotoViewer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,12 +92,12 @@
 		00A91A061A65CC29005EE58E /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
 		00A91A0B1A662657005EE58E /* IKV7100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IKV7100.png; path = ../../../Desktop/IKV7100.png; sourceTree = "<group>"; };
 		00A91A0D1A6639A3005EE58E /* PhotoDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDataController.m; sourceTree = "<group>"; };
-		00B0DA881A705A82006AB0A0 /* VKCommunicatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCommunicatorDelegate.h; sourceTree = "<group>"; };
-		00B0DA891A705BA8006AB0A0 /* VKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKManager.h; sourceTree = "<group>"; };
-		00B0DA8A1A705BA8006AB0A0 /* VKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKManager.m; sourceTree = "<group>"; };
-		00B0DA8C1A705C0D006AB0A0 /* VKManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKManagerDelegate.h; sourceTree = "<group>"; };
-		00B0DA8D1A705C9D006AB0A0 /* VKCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKCommunicator.h; sourceTree = "<group>"; };
-		00B0DA8E1A705C9D006AB0A0 /* VKCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKCommunicator.m; sourceTree = "<group>"; };
+		00B0DA881A705A82006AB0A0 /* VKAlbumsCommunicatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAlbumsCommunicatorDelegate.h; sourceTree = "<group>"; };
+		00B0DA891A705BA8006AB0A0 /* VKAlbumsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlbumsManager.h; sourceTree = "<group>"; };
+		00B0DA8A1A705BA8006AB0A0 /* VKAlbumsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlbumsManager.m; sourceTree = "<group>"; };
+		00B0DA8C1A705C0D006AB0A0 /* VKAlbumsManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAlbumsManagerDelegate.h; sourceTree = "<group>"; };
+		00B0DA8D1A705C9D006AB0A0 /* VKAlbumsCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlbumsCommunicator.h; sourceTree = "<group>"; };
+		00B0DA8E1A705C9D006AB0A0 /* VKAlbumsCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlbumsCommunicator.m; sourceTree = "<group>"; };
 		00B572311A66E2A300D7EEF1 /* OnePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePhotoViewController.h; sourceTree = "<group>"; };
 		00B572321A66E2A300D7EEF1 /* OnePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePhotoViewController.m; sourceTree = "<group>"; };
 		160AFAA527F592FD0F42DD36 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,12 +192,18 @@
 		00A6AE471A6DA1B6007ADFE5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				00B0DA8D1A705C9D006AB0A0 /* VKCommunicator.h */,
-				00B0DA8E1A705C9D006AB0A0 /* VKCommunicator.m */,
-				00B0DA891A705BA8006AB0A0 /* VKManager.h */,
-				00B0DA8A1A705BA8006AB0A0 /* VKManager.m */,
-				00B0DA881A705A82006AB0A0 /* VKCommunicatorDelegate.h */,
-				00B0DA8C1A705C0D006AB0A0 /* VKManagerDelegate.h */,
+				00B0DA8D1A705C9D006AB0A0 /* VKAlbumsCommunicator.h */,
+				00B0DA8E1A705C9D006AB0A0 /* VKAlbumsCommunicator.m */,
+				00B0DA891A705BA8006AB0A0 /* VKAlbumsManager.h */,
+				00B0DA8A1A705BA8006AB0A0 /* VKAlbumsManager.m */,
+				00B0DA881A705A82006AB0A0 /* VKAlbumsCommunicatorDelegate.h */,
+				00B0DA8C1A705C0D006AB0A0 /* VKAlbumsManagerDelegate.h */,
+				001C3DFA1A71A33600239BB7 /* VKPhotosCommunicator.h */,
+				001C3DFB1A71A33600239BB7 /* VKPhotosCommunicator.m */,
+				001C3DFD1A71A3E500239BB7 /* VKPhotosManager.h */,
+				001C3DFE1A71A3E500239BB7 /* VKPhotosManager.m */,
+				001C3E001A71A4F500239BB7 /* VKPhotosCommunicatorDelegate.h */,
+				001C3E011A71A53D00239BB7 /* VKPhotosManagerDelegate.h */,
 				00A6AE441A6DA176007ADFE5 /* VKContentManager.h */,
 				00A6AE451A6DA176007ADFE5 /* VKContentManager.m */,
 				00C1CF901A6F57EB0030BFA7 /* Parsers */,
@@ -256,8 +273,10 @@
 		00C1CF901A6F57EB0030BFA7 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				00323B681A6F77100079C095 /* AlbumBuilder.h */,
-				00323B691A6F77100079C095 /* AlbumBuilder.m */,
+				00323B681A6F77100079C095 /* AlbumsBuilder.h */,
+				00323B691A6F77100079C095 /* AlbumsBuilder.m */,
+				001C3E021A71A60300239BB7 /* PhotosBuilder.h */,
+				001C3E031A71A60300239BB7 /* PhotosBuilder.m */,
 			);
 			name = Parsers;
 			sourceTree = "<group>";
@@ -416,18 +435,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B0DA8F1A705C9D006AB0A0 /* VKCommunicator.m in Sources */,
+				00B0DA8F1A705C9D006AB0A0 /* VKAlbumsCommunicator.m in Sources */,
 				00A618E91A647571008E2C5D /* AlbumTableViewController.m in Sources */,
+				001C3DFC1A71A33600239BB7 /* VKPhotosCommunicator.m in Sources */,
+				001C3DFF1A71A3E500239BB7 /* VKPhotosManager.m in Sources */,
 				00A618EC1A64759A008E2C5D /* AlbumTableViewCell.m in Sources */,
-				00B0DA8B1A705BA8006AB0A0 /* VKManager.m in Sources */,
+				00B0DA8B1A705BA8006AB0A0 /* VKAlbumsManager.m in Sources */,
 				00A619331A64A9CA008E2C5D /* DetailAlbumCollectionViewController.m in Sources */,
-				00323B6A1A6F77100079C095 /* AlbumBuilder.m in Sources */,
+				00323B6A1A6F77100079C095 /* AlbumsBuilder.m in Sources */,
 				00A618C41A647475008E2C5D /* AppDelegate.m in Sources */,
 				00A6AE461A6DA176007ADFE5 /* VKContentManager.m in Sources */,
 				00A618C11A647475008E2C5D /* main.m in Sources */,
 				00A618CA1A647475008E2C5D /* LogInViewController.m in Sources */,
 				00A91A071A65CC29005EE58E /* AlbumDataController.m in Sources */,
 				00A619271A648E0C008E2C5D /* Album.m in Sources */,
+				001C3E041A71A60300239BB7 /* PhotosBuilder.m in Sources */,
 				00A91A0E1A6639A3005EE58E /* PhotoDataController.m in Sources */,
 				00A618C71A647475008E2C5D /* VKPhotoViewer2.xcdatamodeld in Sources */,
 				00A91A011A65CBD8005EE58E /* Photo.m in Sources */,

@@ -10,14 +10,4 @@
 
 @implementation Photo
 
--(id)initWithPhoto:(UIImage *)photo {
-    self = [super init];
-    if (self) {
-        _photo = photo;
-        
-        return self;
-    }
-    return nil;
-}
-
 @end

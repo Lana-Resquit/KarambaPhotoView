@@ -6,16 +6,17 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "VKCommunicator.h"
-#import "VKCommunicatorDelegate.h"
+#import "VKAlbumsCommunicator.h"
+#import "VKAlbumsCommunicatorDelegate.h"
 #import "VKSdk.h"
 
-@implementation VKCommunicator
+@implementation VKAlbumsCommunicator
 
 -(void)searchAlbumsInUser {
     
     NSString *token = [[VKSdk getAccessToken]accessToken];
     NSString *userId = [[VKSdk getAccessToken]userId];
+    
     NSString *urlString = [NSString stringWithFormat:@"https://api.vk.com/method/photos.getAlbums?user_id=%@&access_token=%@&need_covers=1",userId,token];
     NSURL *url = [[NSURL alloc]initWithString:urlString];
     

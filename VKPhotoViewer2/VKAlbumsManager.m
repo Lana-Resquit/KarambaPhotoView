@@ -6,21 +6,21 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "VKManager.h"
-#import "AlbumBuilder.h"
-#import "VKCommunicator.h"
+#import "VKAlbumsManager.h"
+#import "AlbumsBuilder.h"
+#import "VKAlbumsCommunicator.h"
 
-@implementation VKManager
+@implementation VKAlbumsManager
 
 -(void)fetchAlbumsInUser {
     [self.communicator searchAlbumsInUser];
 }
 
-#pragma mark - VKCommunicatorDelegate
+#pragma mark - VKAlbumsCommunicatorDelegate
 
 -(void)receivedAlbumsJSON:(NSData *)objectNotation {
     NSError *error = nil;
-    NSArray *albums = [AlbumBuilder albumsFromJSON:objectNotation error:&error];
+    NSArray *albums = [AlbumsBuilder albumsFromJSON:objectNotation error:&error];
     
     if (error != nil) {
         [self.delegate fetchingAlbumsFailedWithError:error];
