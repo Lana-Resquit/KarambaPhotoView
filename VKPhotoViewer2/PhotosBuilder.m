@@ -28,7 +28,7 @@
     for (NSDictionary *photoDic in results ) {
         Photo *photo = [[Photo alloc]init];
         
-        NSString *urlPhoto = [photoDic valueForKey:@"src"];
+        NSString *urlPhoto = [photoDic valueForKey:@"src_xxxbig"];
         [photo setPhotoURL:urlPhoto];
         
     [photos addObject:photo];

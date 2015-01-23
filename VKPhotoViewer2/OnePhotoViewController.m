@@ -7,6 +7,7 @@
 //
 
 #import "OnePhotoViewController.h"
+#import "AFNetworking.h"
 
 @interface OnePhotoViewController ()
 
@@ -21,7 +22,19 @@
 }
 -(void)configureView {
     if (self.photoItem) {
-        
+       
+        NSURL *url = [NSURL URLWithString:self.photoItem.photoURL];
+        NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+        AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+        requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
+        [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+            self.imageView.image = responseObject;
+            
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            NSLog(@"Image error: %@", error);
+        }];
+        [requestOperation start];
+
     }
 }
 

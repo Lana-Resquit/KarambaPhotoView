@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 //
-#import <Foundation/Foundation.h>
-#import "Photo.h"
-
-@interface PhotoDataController : NSObject
-
--(NSUInteger)photoCount;
--(Photo *) photoAtIndex:(NSUInteger)index;
--(void)addPhoto:(UIImage *)photo;
-
-@end
+//#import <Foundation/Foundation.h>
+//#import "Photo.h"
+//
+//@interface PhotoDataController : NSObject
+//
+//-(NSUInteger)photoCount;
+//-(Photo *) photoAtIndex:(NSUInteger)index;
+//-(void)addPhoto:(UIImage *)photo;
+//
+//@end
