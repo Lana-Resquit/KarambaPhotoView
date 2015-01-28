@@ -23,7 +23,7 @@
 -(void)configureView {
     if (self.photoItem) {
        
-        NSURL *url = [NSURL URLWithString:self.photoItem.photoURL];
+        NSURL *url = [NSURL URLWithString:self.photoItem.photoXXXURL];
         NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
         AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
         requestOperation.responseSerializer = [AFImageResponseSerializer serializer];

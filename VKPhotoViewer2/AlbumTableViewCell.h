@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *albumTitle;
 @property (weak, nonatomic) IBOutlet UIImageView *mainPhoto;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 
 @end

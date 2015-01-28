@@ -12,5 +12,6 @@
 @interface Photo : NSObject
 
 @property (nonatomic, strong) NSString *photoURL;
+@property (nonatomic, strong) NSString *photoXXXURL;
 
 @end

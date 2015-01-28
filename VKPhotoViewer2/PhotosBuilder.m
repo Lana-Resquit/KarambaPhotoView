@@ -28,8 +28,15 @@
     for (NSDictionary *photoDic in results ) {
         Photo *photo = [[Photo alloc]init];
         
-        NSString *urlPhoto = [photoDic valueForKey:@"src_xxxbig"];
+        NSString *urlPhoto = [photoDic valueForKey:@"src_big"];
+        NSString *urlXXXPhoto = [photoDic valueForKey:@"src_xxxbig"];
+        if (urlXXXPhoto == nil) {
+            urlXXXPhoto = [photoDic valueForKey:@"src_big"];
+        }
+        NSLog(@"url simple: %@", urlPhoto);
+        
         [photo setPhotoURL:urlPhoto];
+        [photo setPhotoXXXURL:urlXXXPhoto];
         
     [photos addObject:photo];
     }

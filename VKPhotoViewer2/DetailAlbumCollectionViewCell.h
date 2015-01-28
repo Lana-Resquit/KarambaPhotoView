@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFNetworking.h"
 
 @interface DetailAlbumCollectionViewCell : UICollectionViewCell
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) AFHTTPRequestOperation *loadingOperation;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicatorCollection;
 
 @end

@@ -9,7 +9,13 @@
 #import "DetailAlbumCollectionViewCell.h"
 
 @implementation DetailAlbumCollectionViewCell
-//FIXME
 
+
+
+-(void) prepareForReuse {
+    NSLog(@"prepare for reuse");
+    self.imageView.image = nil;
+    [self.loadingOperation cancel];
+}
 
 @end

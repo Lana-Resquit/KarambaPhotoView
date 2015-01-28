@@ -136,27 +136,84 @@
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TdI-Ta-h8f">
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <variation key="widthClass=compact" fixedFrame="YES">
                                                 <rect key="frame" x="8" y="8" width="78" height="81"/>
                                             </variation>
                                         </imageView>
+                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="EIm-gd-dHw">
+                                            <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                            <variation key="widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="37" y="38" width="20" height="20"/>
+                                            </variation>
+                                        </activityIndicatorView>
                                     </subviews>
                                     <variation key="default">
                                         <mask key="subviews">
                                             <exclude reference="MQW-0N-2SN"/>
                                             <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=compact">
+                                        <mask key="subviews">
+                                            <exclude reference="MQW-0N-2SN"/>
+                                            <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular">
+                                        <mask key="subviews">
+                                            <exclude reference="MQW-0N-2SN"/>
+                                            <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
                                         </mask>
                                     </variation>
                                     <variation key="widthClass=compact">
                                         <mask key="subviews">
                                             <include reference="MQW-0N-2SN"/>
                                             <include reference="TdI-Ta-h8f"/>
+                                            <include reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="widthClass=regular">
+                                        <mask key="subviews">
+                                            <exclude reference="MQW-0N-2SN"/>
+                                            <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=compact-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="MQW-0N-2SN"/>
+                                            <include reference="TdI-Ta-h8f"/>
+                                            <include reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=compact-widthClass=regular">
+                                        <mask key="subviews">
+                                            <exclude reference="MQW-0N-2SN"/>
+                                            <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="MQW-0N-2SN"/>
+                                            <include reference="TdI-Ta-h8f"/>
+                                            <include reference="EIm-gd-dHw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <mask key="subviews">
+                                            <exclude reference="MQW-0N-2SN"/>
+                                            <exclude reference="TdI-Ta-h8f"/>
+                                            <exclude reference="EIm-gd-dHw"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="albumTitle" destination="MQW-0N-2SN" id="SE3-VS-Ozc"/>
+                                    <outlet property="indicator" destination="EIm-gd-dHw" id="EOa-OH-ccx"/>
                                     <outlet property="mainPhoto" destination="TdI-Ta-h8f" id="pYR-wd-BzZ"/>
                                     <segue destination="8Bf-aG-Yrh" kind="show" identifier="ShowAlbumDetails" id="YOV-0U-ScE"/>
                                 </connections>
@@ -184,48 +241,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2r0-mM-rGF">
-                            <size key="itemSize" width="100" height="100"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="3" minimumInteritemSpacing="0.0" id="2r0-mM-rGF">
+                            <size key="itemSize" width="120" height="120"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="dca-pP-8ec" customClass="DetailAlbumCollectionViewCell">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GXz-UU-tpZ">
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                             <variation key="widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                             </variation>
                                         </imageView>
+                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rjY-lW-zRh">
+                                            <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                            <variation key="widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="50" y="50" width="20" height="20"/>
+                                            </variation>
+                                        </activityIndicatorView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <variation key="default">
                                     <mask key="subviews">
                                         <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="subviews">
+                                        <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="subviews">
                                         <include reference="GXz-UU-tpZ"/>
+                                        <include reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="subviews">
+                                        <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="GXz-UU-tpZ"/>
+                                        <include reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="GXz-UU-tpZ"/>
+                                        <include reference="rjY-lW-zRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="subviews">
+                                        <exclude reference="GXz-UU-tpZ"/>
+                                        <exclude reference="rjY-lW-zRh"/>
                                     </mask>
                                 </variation>
                                 <connections>
                                     <outlet property="imageView" destination="GXz-UU-tpZ" id="1Gg-PW-fWB"/>
+                                    <outlet property="indicatorCollection" destination="rjY-lW-zRh" id="ppu-jV-Tby"/>
                                     <segue destination="nNX-uL-fXP" kind="show" identifier="ShowAlbumDetails" id="2M8-pr-nUm"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="8Bf-aG-Yrh" id="NpB-gL-R4J"/>
-                            <outlet property="delegate" destination="8Bf-aG-Yrh" id="pDC-Se-bQd"/>
+                            <outlet property="dataSource" destination="8Bf-aG-Yrh" id="SQK-s5-De9"/>
+                            <outlet property="delegate" destination="8Bf-aG-Yrh" id="eH4-r0-38U"/>
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="yg6-ne-r63">
@@ -251,7 +359,7 @@
                             <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d4W-z2-b1M">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="569"/>
+                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -261,9 +369,44 @@
                                 <exclude reference="d4W-z2-b1M"/>
                             </mask>
                         </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="d4W-z2-b1M"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="d4W-z2-b1M"/>
                             </mask>
                         </variation>
                     </view>
@@ -273,7 +416,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQe-Qe-qm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4440" y="384"/>
+            <point key="canvasLocation" x="4444.5" y="384"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="342-et-O2v">

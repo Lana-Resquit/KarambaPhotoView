@@ -14,24 +14,26 @@
 #import "VKAlbumsManager.h"
 #import "VKAlbumsCommunicator.h"
 #import "AFNetworking.h"
+#import "VKSdk.h"
 
 @interface AlbumTableViewController () <VKAlbumsManagerDelegate> {
     NSArray *_albums;
     VKAlbumsManager *_manager;
 }
+
 @end
 
 @implementation AlbumTableViewController
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+    
     _manager = [[VKAlbumsManager alloc]init];
     _manager.communicator = [[VKAlbumsCommunicator alloc]init];
     _manager.communicator.delegate = _manager;
     _manager.delegate = self;
     
     [_manager fetchAlbumsInUser];
-
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -40,11 +42,22 @@
    
 }
 
+-(void) viewWillDisappear:(BOOL)animated {
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
+        // back button was pressed. We know this is true because self is no longer
+        // in the navigation stack.
+        [VKSdk forceLogout];
+    }
+    [super viewWillDisappear:animated];
+}
+
 #pragma mark - VKManagerDelegate
 
 -(void)didReceiveAlbums:(NSArray *)albums {
     _albums = albums;
-    [self.tableView reloadData];
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        [self.tableView reloadData];
+    });
 }
 
 -(void)fetchingAlbumsFailedWithError:(NSError *)error {
@@ -73,6 +86,7 @@
     
     AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
     Album *album = _albums[indexPath.row];
+    [cell.indicator startAnimating];
     cell.albumTitle.text = album.title;
     
     NSURL *url = [NSURL URLWithString:album.urlPhoto];
@@ -80,6 +94,7 @@
     AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
     requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
     [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [cell.indicator stopAnimating];
         cell.mainPhoto.image = responseObject;
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

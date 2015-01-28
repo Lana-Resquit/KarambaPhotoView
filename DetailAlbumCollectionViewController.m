@@ -15,7 +15,6 @@
 #import "VKPhotosCommunicator.h"
 #import "AFNetworking.h"
 
-
 @interface DetailAlbumCollectionViewController () <VKPhotosManagerDelegate> {
 
 NSArray *_photos;
@@ -36,6 +35,8 @@ static NSString * const reuseIdentifier = @"Cell";
 -(void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = self.detailItem.title;
+    
     _manager = [[VKPhotosManager alloc]init];
     _manager.communicator = [[VKPhotosCommunicator alloc] init];
     _manager.communicator.delegate = _manager;
@@ -49,7 +50,10 @@ static NSString * const reuseIdentifier = @"Cell";
 -(void)didReceivePhotos:(NSArray *)photos {
     
     _photos = photos;
-    [self.collectionView reloadData];
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        [self.collectionView reloadData];
+    });
+
 }
 
 -(void)fetchingPhotosFailedWithError:(NSError *)error {
@@ -64,6 +68,10 @@ static NSString * const reuseIdentifier = @"Cell";
     return 1;
 }
 
+//- (UIEdgeInsets)collectionView:
+//(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+//    return UIEdgeInsetsMake(0, 0, 10, 0);
+//}
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 
@@ -71,20 +79,23 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
+    NSLog(@"Create cell");
     DetailAlbumCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     Photo *photo = _photos[indexPath.row];
+    [cell.indicatorCollection startAnimating];
     
     NSURL *url = [NSURL URLWithString:photo.photoURL];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
     requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
     [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [cell.indicatorCollection stopAnimating];
         cell.imageView.image = responseObject;
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Image error: %@", error);
     }];
+    [cell setLoadingOperation:requestOperation];
     [requestOperation start];
 
     
