@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "VKAlbumsCommunicator.h"
-#import "VKAlbumsCommunicatorDelegate.h"
+#import "AlbumsCommunicator.h"
+#import "AlbumsCommunicatorDelegate.h"
 #import "VKSdk.h"
 
-@implementation VKAlbumsCommunicator
+@implementation AlbumsCommunicator
 
 -(void)searchAlbumsInUser {
     

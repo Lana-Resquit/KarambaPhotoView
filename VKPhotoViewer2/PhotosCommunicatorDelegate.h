@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKPhotosCommunicatorDelegate
+@protocol PhotosCommunicatorDelegate
 
 -(void)receivedPhotosJSON:(NSData *)objectNotation;
 -(void)fetchingPhotosFailedWithError:(NSError *)error;

@@ -6,17 +6,17 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "VKPhotosManager.h"
+#import "PhotosManager.h"
 #import "PhotosBuilder.h"
-#import "VKPhotosCommunicator.h"
+#import "PhotosCommunicator.h"
 
-@implementation VKPhotosManager
+@implementation PhotosManager
 
 -(void)fetchPhotosInAlbum:(NSString *)albumId {
     [self.communicator searchPhotosInAlbum:albumId];
 }
 
-#pragma mark - VKPhotosCommunicatorDelegate
+#pragma mark - PhotosCommunicatorDelegate
 
 -(void)receivedPhotosJSON:(NSData *)objectNotation {
     NSError *error = nil;

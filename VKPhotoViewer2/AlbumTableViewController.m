@@ -11,14 +11,14 @@
 #import "DetailAlbumCollectionViewController.h"
 
 #import "Album.h"
-#import "VKAlbumsManager.h"
-#import "VKAlbumsCommunicator.h"
+#import "AlbumsManager.h"
+#import "AlbumsCommunicator.h"
 #import "AFNetworking.h"
 #import "VKSdk.h"
 
-@interface AlbumTableViewController () <VKAlbumsManagerDelegate> {
+@interface AlbumTableViewController () <AlbumsManagerDelegate> {
     NSArray *_albums;
-    VKAlbumsManager *_manager;
+    AlbumsManager *_manager;
 }
 
 @end
@@ -28,8 +28,8 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    _manager = [[VKAlbumsManager alloc]init];
-    _manager.communicator = [[VKAlbumsCommunicator alloc]init];
+    _manager = [[AlbumsManager alloc]init];
+    _manager.communicator = [[AlbumsCommunicator alloc]init];
     _manager.communicator.delegate = _manager;
     _manager.delegate = self;
     

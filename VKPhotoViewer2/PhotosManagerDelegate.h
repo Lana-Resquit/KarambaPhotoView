@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKPhotosManagerDelegate
+@protocol PhotosManagerDelegate
 
 -(void)didReceivePhotos:(NSArray *)photos;
 -(void)fetchingPhotosFailedWithError:(NSError *)error;

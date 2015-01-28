@@ -11,14 +11,14 @@
 #import "OnePhotoViewController.h"
 
 #import "Photo.h"
-#import "VKPhotosManager.h"
-#import "VKPhotosCommunicator.h"
+#import "PhotosManager.h"
+#import "PhotosCommunicator.h"
 #import "AFNetworking.h"
 
-@interface DetailAlbumCollectionViewController () <VKPhotosManagerDelegate> {
+@interface DetailAlbumCollectionViewController () <PhotosManagerDelegate> {
 
 NSArray *_photos;
-VKPhotosManager *_manager;
+PhotosManager *_manager;
 }
 @end
 
@@ -37,15 +37,15 @@ static NSString * const reuseIdentifier = @"Cell";
     
     self.navigationItem.title = self.detailItem.title;
     
-    _manager = [[VKPhotosManager alloc]init];
-    _manager.communicator = [[VKPhotosCommunicator alloc] init];
+    _manager = [[PhotosManager alloc]init];
+    _manager.communicator = [[PhotosCommunicator alloc] init];
     _manager.communicator.delegate = _manager;
     _manager.delegate = self;
     
     [_manager fetchPhotosInAlbum:self.detailItem.albumId];
 }
 
-#pragma mark - VKPhotosManagerDelegate
+#pragma mark - PhotosManagerDelegate
 
 -(void)didReceivePhotos:(NSArray *)photos {
     
@@ -67,11 +67,6 @@ static NSString * const reuseIdentifier = @"Cell";
 
     return 1;
 }
-
-//- (UIEdgeInsets)collectionView:
-//(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
-//    return UIEdgeInsetsMake(0, 0, 10, 0);
-//}
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 

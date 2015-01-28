@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Kristyna. All rights reserved.
 //
 
-#import "VKPhotosCommunicator.h"
-#import "VKPhotosCommunicatorDelegate.h"
+#import "PhotosCommunicator.h"
+#import "PhotosCommunicatorDelegate.h"
 #import "VKSdk.h"
 
-@implementation VKPhotosCommunicator
+@implementation PhotosCommunicator
 
 -(void)searchPhotosInAlbum:(NSString *)albumId {
     

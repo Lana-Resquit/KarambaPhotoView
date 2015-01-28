@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol VKPhotosCommunicatorDelegate;
+@protocol PhotosCommunicatorDelegate;
 
-@interface VKPhotosCommunicator : NSObject
+@interface PhotosCommunicator : NSObject
 
-@property (weak, nonatomic) id<VKPhotosCommunicatorDelegate> delegate;
+@property (weak, nonatomic) id<PhotosCommunicatorDelegate> delegate;
 
 -(void)searchPhotosInAlbum:(NSString *)albumId;
 
